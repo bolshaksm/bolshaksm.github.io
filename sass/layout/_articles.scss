@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+.personalInfo__caption
+{
+	background: linear-gradient(to right, #e2e7ec, #f7f7f7);
+	color: #4b5862;
+	border-top: 5px solid #effbff;
+	padding-left: 1em;
+	margin-bottom: 0;
+	font-family: 'Permanent Marker', cursive;
+}
+.personalInfo__text
+{
+	line-height: 1.2em;
+	padding: 0.5em 0;
+	color: #4b5862;
+	background-color: #effbff;
+	border-bottom: 1px dotted #e2e7ec;
+}
