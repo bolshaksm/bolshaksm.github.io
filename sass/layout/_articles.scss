@@ -1,18 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-.personalInfo__caption
+.captions
 {
 	background: linear-gradient(to right, #e2e7ec, #f7f7f7);
-	color: #4b5862;
+	color: #323333;
 	border-top: 5px solid #effbff;
 	padding-left: 1em;
 	margin-bottom: 0;
-	font-family: 'Permanent Marker', cursive;
 }
-.personalInfo__text
+.text
 {
-	line-height: 1.2em;
-	padding: 0.5em 0;
-	color: #4b5862;
-	background-color: #effbff;
+	color: #323333;
 	border-bottom: 1px dotted #e2e7ec;
+}
+.list
+{
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.list__item::before
+{
+	content: "-";
 }

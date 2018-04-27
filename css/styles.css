@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 *,
 *::before,
 *::after {
@@ -2306,6 +2305,9 @@ html {
 *::selection {
   background-color: #7bf6a1; }
 
+body {
+  background-color: #effbff; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2323,23 +2325,28 @@ html {
   background: -webkit-gradient(linear, left bottom, left top, from(#b4edf8), to(#5db7c2));
   background: linear-gradient(to top, #b4edf8, #5db7c2);
   font-size: 1em;
-  padding: 1.2em; }
+  padding-top: 1.2em; }
 
 /*----------------mediaQueries-------------------------*/
-.personalInfo__caption {
+.captions {
   background: -webkit-gradient(linear, left top, right top, from(#e2e7ec), to(#f7f7f7));
   background: linear-gradient(to right, #e2e7ec, #f7f7f7);
-  color: #4b5862;
+  color: #323333;
   border-top: 5px solid #effbff;
   padding-left: 1em;
-  margin-bottom: 0;
-  font-family: 'Permanent Marker', cursive; }
+  margin-bottom: 0; }
 
-.personalInfo__text {
-  line-height: 1.2em;
-  padding: 0.5em 0;
-  color: #4b5862;
-  background-color: #effbff;
+.text {
+  color: #323333;
   border-bottom: 1px dotted #e2e7ec; }
+
+.list {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 1em;
+  text-indent: -1em; }
+
+.list__item::before {
+  content: "-"; }
 
 /*# sourceMappingURL=styles.css.map */
