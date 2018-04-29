@@ -1,0 +1,52 @@
+.footer
+{
+	font-style: italic;
+	font-size: 0.75em;
+	padding: 0.5em 1em;
+	background: linear-gradient(to bottom, $color-aquamarine-light, $color-aquamarine);
+@include mq-md {
+	background: $color-dark;
+	padding: 1em 15em;
+	color: $color-white;
+}
+}
+.footer__text, 
+{
+	text-align: center;
+}
+.footer__link
+{
+	text-align: center;
+	font-style: normal;
+}
+.footer__link_theme
+{
+	color: $color-white;
+	text-shadow: 0 0 5px $color-text-shadow;
+@include mq-md {
+	color: $color-aquamarine;	
+}
+}
+.footer__link_theme:hover
+{
+	text-shadow: none;
+}
+.footer__linkImg_sm
+{
+	width: 2em;
+	max-width: 100%;
+	height: auto;
+@include mq-md {
+	display: none;
+}
+}
+.footer__linkImg_lg
+{
+	display: none;
+@include mq-md {
+	display: inline;
+	width: 4em;
+	max-width: 100%;
+	height: auto;
+}
+}

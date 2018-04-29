@@ -1,0 +1,5 @@
+@mixin mq-md {
+	@media (min-width: $screen-medium) {
+		@content;
+	}
+}

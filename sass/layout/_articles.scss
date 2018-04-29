@@ -1,0 +1,48 @@
+.captions, .captionsThemeRight
+{
+	background: linear-gradient(to right, $color-gray, $color-gray-light);
+	color: $color-dark;
+	border-top: 5px solid $color-bg;
+	padding-left: 1em;
+	margin-bottom: 0;
+@include mq-md {
+	background: $color-aquamarine;
+	color: $color-white;
+	text-shadow: 0 0 5px $color-text-shadow;
+}
+}
+.captionsThemeRight
+{
+@include mq-md {
+	background: $color-gray;
+}
+}
+.header__linkedin
+{
+	display: none;
+@include mq-md {
+	display: inline;
+	text-shadow: none;
+	& a, & h2
+		{
+			color: $color-aquamarine;
+			margin-bottom: 0;
+		}
+
+}
+}
+.text
+{
+	color: $color-dark;
+	border-bottom: 1px dotted $color-gray;
+}
+.list
+{
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.list__item::before
+{
+	content: "-";
+}

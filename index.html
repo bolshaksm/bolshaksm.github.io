@@ -14,21 +14,31 @@
   </head>
   <body>
     <main class="container-fluid">
-      <section class="row"> <!-- headerContent -->
-        <header class="col-12 header">
+      <section class="row"> <!-- header -->
+        <header class="col-12 col-md-2 header__myPhoto">
+          <img src="img/Bolshak_Serhii.jpg" alt="myPhoto" class="header__myPhoto_param">
+        </header>
+        <header class="col-12 col-md-10 header__caption">
           <h1>
             front-end developer
           </h1>
-          <p>
+          <p class="header__subcaption">
             (junior)
           </p>
         </header>
       </section>
-      <section class="personalInfo"> <!-- resumeMainContent --> 
+      <section> <!-- personalInfo --> 
         <div class="row">
-          <h2 class="col-12 captions">
+          <h2 class="col-12 col-md-4 captions">
             Личные данные
           </h2>
+          <span class="col-md-8 captionsThemeRight header__linkedin"> <!-- grayTheme -->
+            <h2>
+              <a href="https://www.linkedin.com/in/sergei-bolshak-47bb08155/" target="_blank">
+                in
+              </a>
+            </h2>
+          </span>
         </div>
         <div class="row text">
           <div class="col-4">
@@ -101,11 +111,13 @@
           </div>         
         </div>
       </section>
-      <section class="education"> <!-- resumeMainContent --> 
+      <section> <!-- education --> 
         <div class="row">
-          <h2 class="col-12 captions">
+          <h2 class="col-12 col-md-4 captions">
             Образование
           </h2>
+          <span class="col-md-8 captionsThemeRight"> <!-- grayTheme -->
+          </span>
         </div>
         <div class="row text">
           <div class="col-4">
@@ -132,11 +144,13 @@
           </div>         
         </div>
       </section>
-      <section class="experience">
+      <section><!-- experience -->
         <div class="row">
-          <h2 class="col-12 captions">
+          <h2 class="col-12 col-md-4 captions">
             Опыт работы
           </h2>
+          <span class="col-md-8 captionsThemeRight"> <!-- grayTheme -->
+          </span>
         </div>
         <div class="row text">
           <div class="col-4">
@@ -170,7 +184,7 @@
             <div>
               <ul class="list">
                 <li class="list__item">
-                  проектирование, выпуск конструкторской документации (технических условий, чертежей, программ-методик), проведение испытаний и сопровождение процесса изготовления аппаратуры специальных систем управления и контроля ракетной техники;
+                  проектирование, выпуск конструкторской документации (технических условий, чертежей, программ-методик), проведение испытаний и сопровождение процесса изготовления аппаратуры специальных систем управления и контроля;
                 </li>
                 <li class="list__item">
                   совершенствование существующей аппаратуры;
@@ -186,11 +200,13 @@
           </div>
         </div>
       </section>
-      <section class="skills">
+      <section> <!-- skills -->
         <div class="row">
-          <h2 class="col-12 captions">
+          <h2 class="col-12 col-md-4 captions">
             Навыки
           </h2>
+          <span class="col-md-8 captionsThemeRight"> <!-- grayTheme -->
+          </span>
         </div>
         <div class="row text">
           <div class="col-4">
@@ -200,7 +216,7 @@
               </span>
             </div>
             <div>
-              <a href="https://spalah.ua/dp/school">
+              <a href="https://spalah.ua/dp/school" target="_blank">
                 (Spalah IT school)
               </a>
             </div>
@@ -230,7 +246,7 @@
                 </span>
               </div>
               <div>
-                <a href="https://spalah.ua/dp/school">
+                <a href="https://spalah.ua/dp/school" target="_blank">
                   (Spalah IT school)
                 </a>
               </div>
@@ -238,21 +254,144 @@
             <div class="col-8">
               <div class="text">
                 <span>
-                  Javascript:
+                  JavaScript:
                 </span>
                 <ul class="list">
-                  <li class="list__item">skill</li>
-                  <li class="list__item">skill</li>
-                  <li class="list__item">skill</li>
-                  <li class="list__item">skill</li>
-                  <li class="list__item">skill</li>
-                  <li class="list__item">skill</li>
-                  <li class="list__item">skill</li>
+                  <li class="list__item">skill;</li>
+                  <li class="list__item">skill;</li>
+                  <li class="list__item">skill;</li>
+                  <li class="list__item">skill;</li>
+                  <li class="list__item">skill;</li>
+                  <li class="list__item">skill;</li>
+                  <li class="list__item">skill.</li>
                 </ul>
               </div>
             </div>
-          </div>
+          </div> 
       </section>
+      <section> <!-- languages -->
+        <div class="row">
+          <h2 class="col-12 col-md-4 captions">
+            Владение языками
+          </h2>
+          <span class="col-md-8 captionsThemeRight"> <!-- grayTheme -->
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-4 text">
+            <span>
+              Украинский, русский
+            </span>
+          </div>
+          <div class="col-8">
+            <div class="text">
+              <span>
+                Свободно
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text">
+            <span>
+              Английский
+            </span>
+          </div>
+          <div class="col-8">
+            <div class="text">
+              <a href="img/certificateOfEngish.jpg" target="_blank">
+                Pre-Intermediate
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text">
+            <span>
+              Польский
+            </span>
+          </div>
+          <div class="col-8">
+            <div class="text">
+              <a href="#" target="_blank">
+                Уровень B1
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section> <!-- personalQualities -->
+        <div class="row">
+          <h2 class="col-12 col-md-4 captions">
+            Личные качества
+          </h2>
+          <span class="col-md-8 captionsThemeRight"> <!-- grayTheme -->
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-12 text">
+             <ul class="list">
+                <li class="list__item">
+                 хорошие коммуникативные навыки;
+                </li>
+                <li class="list__item">
+                  умение результативно работать как самостоятельно, так и в команде;
+                </li>
+                <li class="list__item">
+                  высокое чувство ответственности за поставленные задачи;
+                </li>
+                <li class="list__item">
+                  настойчивость в достижении целей;
+                </li>
+                <li class="list__item">
+                  способность к быстрому обучению;
+                </li>
+                <li class="list__item">
+                  постоянное совершенствование своих профессиональных навыков;
+                </li>
+                <li class="list__item">
+                  отсутствие вредных привычек.
+                </li>
+              </ul>
+          </div>
+        </div>
+      </section>
+      <section> <!-- hobbies -->
+        <div class="row">
+          <h2 class="col-12 col-md-4 captions">
+            Интересы
+          </h2>
+          <span class="col-md-8 captionsThemeRight"> <!-- grayTheme -->
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-12 text">
+             <ul class="list">
+                <li class="list__item">
+                 современные технологии;
+                </li>
+                <li class="list__item">
+                  спорт;
+                </li>
+                <li class="list__item">
+                  история.
+                </li>
+              </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="row footer"> <!-- footer -->
+        <section class="col-12 footer__text">
+          Настоящим заявляю, что даю согласие на обработку моих персональных данных, приведенных в резюме, и подтверждаю, что предоставленная информация является полной, достоверной и относится лично ко мне
+        </section>
+        <section class="col-12 footer__link">
+          <a href="download/RESUME_Bolshak_SM_(ru).pdf" target="_blank" class="footer__link_theme">
+            Offline версия резюме в формате PDF
+            <img src="img/pdf-icon_sm.png" alt="PDF_icon" class="footer__linkImg_sm">
+            <img src="img/pdf-icon_lg.png" alt="PDF_icon" class="footer__linkImg_lg">
+          </a>
+        </section>
+      </footer>
     </main>
   </body>
 </html>
