@@ -2383,7 +2383,12 @@ main {
     .captions, .captionsThemeRight {
       background: #8ac8d4;
       color: #fff;
-      text-shadow: 0 0 5px #000; } }
+      text-shadow: 0 0 5px #000;
+      border-radius: 0 15px 0 15px;
+      -webkit-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+      .captions:hover, .captionsThemeRight:hover {
+        border-radius: 15px; } }
 
 @media (min-width: 768px) {
   .captionsThemeRight {
@@ -2423,11 +2428,10 @@ main {
       padding: 1em 15em;
       color: #fff; } }
 
-.footer__text {
+.footer__text, .footer__link {
   text-align: center; }
 
 .footer__link {
-  text-align: center;
   font-style: normal; }
 
 .footer__link_theme {
