@@ -2415,6 +2415,63 @@ main {
 .list__item::before {
   content: "-"; }
 
+/* -----------POPUP---------------------- */
+.popup-checkbox, .popup {
+  display: none; }
+
+.popup {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; }
+
+.popup:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5; }
+
+.popup-content, .popup__certificate {
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.popup__certificate {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto; }
+
+.popup-checkbox:checked + .popup {
+  opacity: 1;
+  display: block; }
+
+.popup-shower {
+  margin: 0;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: none; }
+
+.popup-shower:hover {
+  color: #0056b3; }
+
+.popup-closer {
+  position: absolute;
+  display: block;
+  cursor: pointer; }
+
 .footer {
   font-style: italic;
   font-size: 0.75em;
