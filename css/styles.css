@@ -2450,7 +2450,8 @@ main {
   right: 0; }
 
 .popup__certificate {
-  max-width: 80%;
+  max-height: 100%;
+  max-width: 100%;
   display: block;
   margin: 0 auto; }
 
